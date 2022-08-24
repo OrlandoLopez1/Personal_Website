@@ -1,0 +1,246 @@
+:root {
+    --FuzzyWuzzy: #C1666B;
+    --ChampagnePink: #E5D4CE;
+    --SkyBlue: #63C5DA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.hero{
+  height: 100vh;
+  background: url(../static/computer.jpeg) center/cover no-repeat fixed;
+  position: relative;
+}
+.hero-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*INTRO PAGE*/
+
+.hero-text{
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1{
+    border-bottom: solid white;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    overflow: visible;
+    width: 95vw;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar li {
+    background: var(--SkyBlue);
+    text-align: center;
+    padding: 35px 30px;
+    list-style-type: none;
+
+}
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+
+/*ABOUT ME PAGE*/
+.about{
+    height: 100vh;
+    background: var(--ChampagnePink);
+    position: relative;
+}
+.about h1{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+    font-size: 2rem;
+    /*border: solid red;*/
+}
+.about h1{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+    font-size: 2rem;
+    /*border: solid red;*/
+}
+.about h2{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+    font-size: 2rem;
+    /*border: solid red;*/
+}
+.about h3{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+    /*border: solid red;*/
+}
+.about p{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+    /*border: solid red;*/
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*border: solid red*/
+}
+
+.about-container h1{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+}
+
+.block{
+    background: white;
+    border-radius: 4%;
+    padding: 2% 2%;
+    margin: 3%;
+    display: block;
+    text-align: center;
+    height: 70vh;
+    width: 18vw;
+}
+
+.block1_image{
+    /*width: 40%;*/
+    /*height: auto;*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.block h2{
+    font-size: 2rem;
+    border-bottom: solid orangered;
+
+}
+
+/*SKILLS PAGE*/
+
+.skills{
+    height: 100vh;
+    background: var(--FuzzyWuzzy);
+    /*border: red solid;*/
+    margin: auto;
+}
+
+.skills h1{
+    text-align: center;
+    color: var(--ChampagnePink);
+}
+
+.skills-container{
+    width: 40vw;
+    height: 90vh;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    color:  var(--FuzzyWuzzy);
+    text-align: center;
+
+}
+
+.skills ul{
+    list-style-type: none;
+}
+
+
+
+
+/*Projects Page*/
+.projects{
+  height: 100vh;
+  background: var(--ChampagnePink);
+  position: relative;
+}
+
+.projects h1{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+}
+.projects h3{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+    /*border: solid red;*/
+}
+
+.projects p{
+    text-align: center;
+    color: var(--FuzzyWuzzy);
+    /*border: solid red;*/
+}
+
+.experience{
+  height: 100vh;
+  background: var(--FuzzyWuzzy);
+  position: relative;
+}
+
+.experience h1{
+    text-align: center;
+    color: var(--ChampagnePink);
+}
+
+.experience li{
+    list-style: none;
+}
+
+.experience-container{
+    width: 40vw;
+    height: 90vh;
+    padding: 2% 2%;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    color:  var(--FuzzyWuzzy);
+    text-align: center;
+}
+
+
+
+/*Contact Page*/
+
+.contact{
+    height: 5vh;
+    background: var(--ChampagnePink);
+    position: relative;
+}
+
+
+.contact td{
+    color: var(--FuzzyWuzzy);
+    font-size: 3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.contact a{
+        text-decoration: none;
+
+}
