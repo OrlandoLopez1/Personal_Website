@@ -12,6 +12,7 @@
 
 body {
     position: relative;
+
 }
 
 .hero{
@@ -49,6 +50,7 @@ body {
     width: 95vw;
     position: fixed;
     z-index: 1;
+
 }
 
 .navbar li {
@@ -105,6 +107,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
     /*margin-left: auto;*/
     /*margin-right: auto;*/
     /*border: solid red*/
@@ -175,9 +178,9 @@ body {
 
 /*Projects Page*/
 .projects{
-  height: 100vh;
-  background: var(--ChampagnePink);
-  position: relative;
+    height: 100vh;
+    background: var(--ChampagnePink);
+    position: relative;
 }
 
 .projects h1{
@@ -187,6 +190,7 @@ body {
 .projects h3{
     text-align: center;
     color: var(--FuzzyWuzzy);
+
     /*border: solid red;*/
 }
 
@@ -194,6 +198,10 @@ body {
     text-align: center;
     color: var(--FuzzyWuzzy);
     /*border: solid red;*/
+}
+
+.projects a{
+    text-decoration: none;
 }
 
 .experience{
@@ -220,6 +228,7 @@ body {
     margin-right: auto;
     color:  var(--FuzzyWuzzy);
     text-align: center;
+    z-index: 1;
 }
 
 
